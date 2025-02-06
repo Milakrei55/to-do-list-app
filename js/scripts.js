@@ -1,3 +1,5 @@
+// javascript for to do list app
+
 function newItem() {
     let inputValue = $('#input').val();
     let li = $(`<li>${inputValue}</li>`);
